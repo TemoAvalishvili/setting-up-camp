@@ -6,7 +6,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowIntro(false);
-    }, 0);
+    }, 5000);
   }, []);
 
   return (
